@@ -1,5 +1,5 @@
 # brick-phone
-I take a 1992 Motorola 1G brick-style cell phone, remove the insides, and rebuild it from scratch using modern parts centered around a Pi Pico 2 microcontroller. This repo has key information about the project for those that want to learn about it, as well as notes for myself.
+I took a 1992 Motorola 1G brick-style cell phone, removed the insides, and rebuilt it from scratch using modern parts centered around a Pi Pico 2 microcontroller. This repo has key information about the project for those that want to learn more about it, as well as notes for myself.
 
 Check out the video or see the photos below:
 
