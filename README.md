@@ -6,13 +6,21 @@ Check out the video or see the photos below:
 ## Overview
 I wired up 20 microswitches and arranged them in a key matrix using 30 guage relay wire. The row and columns are wired into the Pico 2. CircuitPython is used to read the switches. It also drives the color LCD via SPI to replicate the original seven segment LED display. The Pico then sends commands via I2C to two ADG729 Dual 1-to-4 Analog Matrix Switches. These switches "press" buttons on a modified bluetooth dialer/2G cell phone embedded in the case. It is all powered by a 3.7v 2200mAh lithium ion battery. Here's a very high level diagram:
 
+<img src="/diagram.png">
+
 ## Parts list
 Raspberry Pi Pico 2
+
 [6mm tactile button switches](https://www.adafruit.com/product/367)
+
 [1.3" 240x240 TFT LCD Display - ST7789](https://www.adafruit.com/product/4313)
+
 [Adafruit ADG729 Dual 1-to-4 Analog Matrix Switch](https://www.adafruit.com/product/5932)
+
 BM10 Wireless Dialer/Mini Phone
+
 [Lithium Ion Battery - 3.7v 2200mAh](https://www.adafruit.com/product/1781)
+
 [PowerBoost 1000 Charger/power supply](https://www.adafruit.com/product/2465)
 
 ## The Build
