@@ -7,6 +7,8 @@ I took a 1992 Motorola 1G brick-style cell phone, removed the insides, and rebui
 
 <img src="/comparison.jpg">
 
+*Above: comparison of the new keyboard pcb to the original*
+
 <img src="/inside.jpg">
 
 ## Overview
