@@ -3,6 +3,12 @@ I took a 1992 Motorola 1G brick-style cell phone, removed the insides, and rebui
 
 [Check out the video](https://youtu.be/6bUMHgfxNoo) or see the photos below:
 
+<img src="/alanb128-on-phone.jpg">
+
+<img src="/comparison.jpg">
+
+<img src="/inside.jpg">
+
 ## Overview
 I wired up 20 microswitches and arranged them in a key matrix using 30 guage relay wire. The row and columns are wired into the Pico 2. CircuitPython is used to read the switches. It also drives the color LCD via SPI to replicate the original seven segment LED display. The Pico then sends commands via I2C to two ADG729 Dual 1-to-4 Analog Matrix Switches. These switches "press" buttons on a modified bluetooth dialer/2G cell phone embedded in the case. It is all powered by a 3.7v 2200mAh lithium ion battery. The Pico code is in this repo as `code.py`. Here's a very high level diagram:
 
