@@ -1,7 +1,7 @@
 # brick-phone
 I took a 1992 Motorola 1G brick-style cell phone, removed the insides, and rebuilt it from scratch using modern parts centered around a Pi Pico 2 microcontroller. This repo has key information about the project for those that want to learn more about it, as well as notes for myself.
 
-Check out the video or see the photos below:
+[Check out the video](https://youtu.be/6bUMHgfxNoo) or see the photos below:
 
 ## Overview
 I wired up 20 microswitches and arranged them in a key matrix using 30 guage relay wire. The row and columns are wired into the Pico 2. CircuitPython is used to read the switches. It also drives the color LCD via SPI to replicate the original seven segment LED display. The Pico then sends commands via I2C to two ADG729 Dual 1-to-4 Analog Matrix Switches. These switches "press" buttons on a modified bluetooth dialer/2G cell phone embedded in the case. It is all powered by a 3.7v 2200mAh lithium ion battery. The Pico code is in this repo as `code.py`. Here's a very high level diagram:
