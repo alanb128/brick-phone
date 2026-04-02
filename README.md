@@ -25,7 +25,7 @@ Raspberry Pi Pico 2
 
 [6mm tactile button switches](https://www.adafruit.com/product/367)
 
-[1.3" 240x240 TFT LCD Display - ST7789](https://www.adafruit.com/product/4313)
+[1.14" 240x135 Color TFT Display](https://www.adafruit.com/product/4383)
 
 [Adafruit ADG729 Dual 1-to-4 Analog Matrix Switch](https://www.adafruit.com/product/5932)
 
